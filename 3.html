@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="inputField">
+    <input type="submit" onclick="myFunction();">
+
+    <script>
+        const number = document.getElementById('inputField');
+
+        const myFunction = () => {
+            console.log(Math.ceil(number.value/100));
+        }
+    </script>
+</body>
+</html>
